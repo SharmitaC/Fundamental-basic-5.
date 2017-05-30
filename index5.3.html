@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- JSExDate.html -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>JavaScript Example: The Date object</title>
+  <script>
+    var username = prompt("Enter your name: ", "");
+    if (confirm("Your name is " + username)) {
+       document.write("<h1>Hello, " + username + "!</h1>");
+    } else {
+       document.write("<h1>Hello, world!</h1>");
+    }
+  </script>
+</head>
+  <script>
+ public class Employee {
+
+    private int empNum;
+    private double empSal;
+
+    public Employee(int e, double s){
+        empNum = e;
+        empSal = s;
+    }
+
+    public int getEmpNum(){
+        return empNum;
+    }
+    public double getSalary(){
+        return empSal;
+
+    }
+
+    public static void main(String[] args) {
+
+        Employee[] array = new Employee[7];
+        Scanner sc = new Scanner(System.in);        
+        for(int i = 0; i < 7; i++) {
+            System.out.printf("Please enter your employee number:");
+            int e = sc.nextInt();
+            System.out.printf("Please enter your salary:");
+            double s = sc.nextDouble();
+            array[i] = new Employee(e, s);
+        }
+    }
+}
+  </script>
+</head>
+<body>
+</html>
